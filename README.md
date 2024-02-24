@@ -19,17 +19,19 @@ pip install -r requirements.txt
 
 ### Usage of tool
 
-You can use below command to run the CLI tool in below command you can change the 20 to number of todos you want to print in CLI
+You can use below command to run the CLI tool in below command you can change the 20 to number of todos you want to print in CLI. If you don't pass that value then it will be considered as 20.
 
 
 ```
 python app.py 20
 
 ```
-### TestCase
+### Unit Test Case
 
-To test the testcase for the given app you can run below test case command.
+To test the unit testcase for the given app you can run below test case command.
 ```
 python -m unittest tests\app_test.py
 
 ```
+
+Feel free to fork the app and add your changes.
