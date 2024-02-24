@@ -19,7 +19,7 @@ def get_even_todos(num_todos):
         todo = fetch_todo(i)
         if i % 2 == 0:
             todos.append(todo)
-            sys.stdout.write('\r..')
+            sys.stdout.write('..\r')
         if len(todos) == num_todos:
             break
     return todos
